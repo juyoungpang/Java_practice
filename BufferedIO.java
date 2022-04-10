@@ -19,8 +19,6 @@ public class BufferedIO {
         String a = tkn.nextToken();
         int b = Integer.parseInt(tkn.nextToken());
 
-        //=====================================================
-
         //BufferedWriter
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));   //선언
         bw.write(s+"\n");   //출력
